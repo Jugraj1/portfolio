@@ -67,7 +67,7 @@ export default function Home() {
             <div className="bg-gray-800 p-6 rounded-xl shadow-lg">
               <h3 className="text-2xl font-semibold mb-2">Bulletin</h3>
               <p className="text-gray-300 mb-4">
-                A feature-rich Android social platform developed for ANU's COMP2100/6442 course, featuring real-time search with custom grammar parsing, AVL tree-based ranking, and design patterns like Singleton, Factory, and Observer.
+                A feature-rich Android social platform developed for ANU&apos;s COMP2100/6442 course, featuring real-time search with custom grammar parsing, AVL tree-based ranking, and design patterns like Singleton, Factory, and Observer.
               </p>
               <a
                 href="https://github.com/Jugraj1/Bulletin"
@@ -97,7 +97,7 @@ export default function Home() {
             <div className="bg-gray-800 p-6 rounded-xl shadow-lg">
               <h3 className="text-2xl font-semibold mb-2">Explicit Free List Malloc</h3>
               <p className="text-gray-300 mb-4">
-                A high-performance dynamic memory allocator in C, featuring segregated free lists, constant-time coalescing, and an optional mark-and-sweep garbage collector, designed for ANU's COMP2300/6300 course.
+                A high-performance dynamic memory allocator in C, featuring segregated free lists, constant-time coalescing, and an optional mark-and-sweep garbage collector, designed for ANU&apos;s COMP2300/6300 course.
               </p>
               <a
                 href="https://github.com/Jugraj1/explicit-free-list-malloc"
