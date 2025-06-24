@@ -16,7 +16,7 @@ export default function Home() {
             CS + Math Student • Developer • Builder of Cool Stuff
           </p>
           <a
-            href="mailto:your@email.com"
+            href="mailto:jugrajmaan99@@email.com"
             className="inline-block bg-white text-black px-6 py-3 rounded-full font-semibold transition hover:bg-gray-300"
           >
             Contact Me
