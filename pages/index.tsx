@@ -4,9 +4,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Jugraj Singh | Portfolio</title>
-        <meta name="description" content="Portfolio of Jugraj Singh" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Jugraj Singh | Developer Portfolio</title>
+        <meta name="description" content="Portfolio of Jugraj Singh — CS + Math student, systems builder, and developer." />
       </Head>
 
       <main className="bg-gray-900 text-white px-4">
@@ -111,6 +110,20 @@ export default function Home() {
             
           </div>
         </section>
+
+        <section className="py-20 max-w-3xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-6 border-b-2 inline-block border-gray-500 pb-2">
+            About Me
+          </h2>
+          <p className="text-gray-300 text-lg leading-relaxed">
+            I'm a Computer Science + Math student at ANU with a passion for building cool and meaningful things.
+            I love exploring low-level systems, high-performance computing, and anything that makes me think deeply.
+            Whether it's optimizing C code on a cluster or building a slick frontend, I thrive on challenge.
+            <br /><br />
+            Outside of tech, I’m into cars, design, and helping others — and I’m always open to collaborations!
+          </p>
+        </section>
+
       </main>
     </>
   )
