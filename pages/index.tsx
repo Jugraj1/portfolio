@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import { motion } from 'framer-motion'
+import IntroLoader from "@/components/IntroLoader";
 
 export default function Home() {
   return (
     <>
+      <IntroLoader />
       <Head>
         <title>Jugraj Singh | Developer Portfolio</title>
         <meta name="description" content="Portfolio of Jugraj Singh — CS + Math student, systems builder, and developer." />
