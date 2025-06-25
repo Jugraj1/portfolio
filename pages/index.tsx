@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
@@ -12,18 +13,23 @@ export default function Home() {
       <main className="bg-gray-900 text-white px-4">
         {/* Hero Section */}
         <section className="min-h-screen flex items-center justify-center">
-          <div className="text-center">
-            <h1 className="text-5xl md:text-7xl font-bold mb-4">Jugraj Singh</h1>
-            <p className="text-xl md:text-2xl text-gray-300 mb-8">
-              CS + Math Student • Developer • Builder of Cool Stuff
-            </p>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-center"
+        >
+          <h1 className="text-5xl md:text-7xl font-bold mb-4">Jugraj Singh</h1>
+          <p className="text-xl md:text-2xl text-gray-300 mb-8">
+            {"CS + Math Student • Developer • Builder of Cool Stuff"}
+          </p>
+          <div>
             <a
-              href="mailto:jugrajmaan99@email.com"
+              href="mailto:your@email.com"
               className="inline-block bg-white text-black px-6 py-3 rounded-full font-semibold transition hover:bg-gray-300"
             >
               Contact Me
             </a>
-
             <a
               href="/resume.pdf"
               target="_blank"
@@ -32,8 +38,8 @@ export default function Home() {
             >
               View Resume
             </a>
-            
           </div>
+        </motion.div>
         </section>
 
         {/* Projects Section */}
