@@ -14,6 +14,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="min-h-screen flex items-center justify-center">
         <motion.div
+          viewport={{ once: true }}
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -43,7 +44,12 @@ export default function Home() {
         </section>
 
         {/* Projects Section */}
-        <motion.section className="py-20 max-w-4xl mx-auto text-center">
+        <motion.section 
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="py-20 max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-10 border-b-2 inline-block border-gray-500 pb-2">
             Projects
           </h2>
@@ -128,7 +134,12 @@ export default function Home() {
           </div>
         </motion.section>
 
-        <motion.section className="py-20 max-w-3xl mx-auto text-center">
+        <motion.section 
+            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="py-20 max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6 border-b-2 inline-block border-gray-500 pb-2">
             About Me
           </h2>
