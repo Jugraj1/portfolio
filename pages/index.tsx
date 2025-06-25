@@ -28,7 +28,7 @@ export default function Home() {
           </p>
           <div>
             <a
-              href="mailto:your@email.com"
+              href="mailto:jugrajmaan99@gmail.com"
               className="inline-block bg-white text-black px-6 py-3 rounded-full font-semibold transition hover:bg-gray-300"
             >
               Contact Me
