@@ -23,6 +23,16 @@ export default function Home() {
             >
               Contact Me
             </a>
+
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-transparent border border-white text-white px-6 py-3 rounded-full font-semibold transition hover:bg-white hover:text-black ml-4"
+            >
+              View Resume
+            </a>
+            
           </div>
         </section>
 
