@@ -117,11 +117,11 @@ export default function Home() {
             About Me
           </h2>
           <p className="text-gray-300 text-lg leading-relaxed">
-            I'm a Computer Science + Math student at ANU with a passion for building cool and meaningful things.
+            I&apos;m a Computer Science + Math student at ANU with a passion for building cool and meaningful things.
             I love exploring low-level systems, high-performance computing, and anything that makes me think deeply.
-            Whether it's optimizing C code on a cluster or building a slick frontend, I thrive on challenge.
+            Whether it&apos;s optimizing C code on a cluster or building a slick frontend, I thrive on challenge.
             <br /><br />
-            Outside of tech, I’m into cars, design, and helping others — and I’m always open to collaborations!
+            Outside of tech, I&apos;m into cars, design, and helping others — and I&apos;m always open to collaborations!
           </p>
         </section>
 
