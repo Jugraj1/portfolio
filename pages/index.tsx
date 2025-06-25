@@ -43,7 +43,7 @@ export default function Home() {
         </section>
 
         {/* Projects Section */}
-        <section className="py-20 max-w-4xl mx-auto text-center">
+        <motion.section className="py-20 max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-10 border-b-2 inline-block border-gray-500 pb-2">
             Projects
           </h2>
@@ -126,9 +126,9 @@ export default function Home() {
             </div>
             
           </div>
-        </section>
+        </motion.section>
 
-        <section className="py-20 max-w-3xl mx-auto text-center">
+        <motion.section className="py-20 max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6 border-b-2 inline-block border-gray-500 pb-2">
             About Me
           </h2>
@@ -139,7 +139,7 @@ export default function Home() {
             <br /><br />
             Outside of tech, I&apos;m into cars, design, and helping others — and I&apos;m always open to collaborations!
           </p>
-        </section>
+        </motion.section>
 
       </main>
     </>
