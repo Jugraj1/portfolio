@@ -6,6 +6,7 @@ export default function Home() {
       <Head>
         <title>Jugraj Singh | Developer Portfolio</title>
         <meta name="description" content="Portfolio of Jugraj Singh — CS + Math student, systems builder, and developer." />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="bg-gray-900 text-white px-4">
